@@ -87,7 +87,7 @@ function setup() {
   //button2.mousePress(drop);
   
   //button2.mouseClick(drop);
-
+  button.mouseClicked(remove_rope);
   button2.mouseClicked(drop);
 
   ellipseMode(RADIUS);
